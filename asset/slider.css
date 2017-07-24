@@ -1,0 +1,93 @@
+body { padding-top: 50px; }
+/*#####################
+Additional Styles (required)
+#####################*/
+
+
+#myCarousel .carousel-caption {
+	left:0;
+	right:0;
+	bottom:0;
+	text-align:left;
+	padding:10px;
+	background:rgba(0,0,0,0.6);
+	text-shadow:none;
+}
+#myCarousel .list-group {
+	position:absolute;
+	top:0;
+	right:0;
+}
+#myCarousel .list-group-item {
+	border-radius:0px;
+	cursor:pointer;
+}
+#myCarousel .list-group .active {
+	background-color:#fdffda;	
+	color: initial;
+	border-color: #2e3a52;
+	border-left: 0;
+}
+#myCarousel li.list-group-item:hover {
+	background:#fdffda;
+}
+
+#myCarousel .list-group a {
+	text-decoration: none;
+}
+
+@media (min-width: 992px) { 
+	#myCarousel {padding-right:33.3333%;}
+	#myCarousel .carousel-controls {display:none;} 	
+}
+@media (max-width: 991px) { 
+	.carousel-caption p,
+	#myCarousel .list-group {display:none;} 
+}
+
+.carousel-inner>.item>img {
+	    max-width: 639px;
+    width: 639px;
+    height: 430px;
+
+}
+
+#myCarousel .list-group-item img {
+  width: 80px;
+  height: 55px;
+  float: left;
+  margin-right: 10px;
+}
+
+.sub-style-0 {
+	font-weight: 700;
+}
+.sub-style-1 {
+	font-size: small;
+	color: #888;
+}
+.sub-style-0, .sub-style-1 {
+	display: block;
+}
+
+@media (min-width: 1200px) {
+.container {
+    width: 99rem;
+}
+
+#myCarousel .carousel-caption,
+#myCarousel .carousel-caption a,
+#myCarousel .carousel-caption a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+#myCarousel .carousel-caption span {
+	display: block;
+	font-size: small;
+	color: #eee;
+	padding: 0 0 3px 0;
+ }
+#myCarousel .carousel-caption span:first-child {
+	font-size: large;
+	font-weight: 600;
+}
