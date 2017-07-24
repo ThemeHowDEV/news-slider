@@ -39,18 +39,24 @@ Additional Styles (required)
 @media (min-width: 992px) { 
 	#myCarousel {padding-right:33.3333%;}
 	#myCarousel .carousel-controls {display:none;} 	
+	.carousel-inner>.item>img {
+	    max-width: 639px;
+        width: 639px;
+        height: 430px;
+
+     }
 }
 @media (max-width: 991px) { 
 	.carousel-caption p,
 	#myCarousel .list-group {display:none;} 
 }
 
+/*@media (max-width: 800px) {
 .carousel-inner>.item>img {
-	    max-width: 639px;
-    width: 639px;
-    height: 430px;
-
-}
+    max-width: 100%;
+    height:auto;
+  }
+}*/
 
 #myCarousel .list-group-item img {
   width: 80px;
